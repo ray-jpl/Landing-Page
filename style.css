@@ -28,6 +28,11 @@ body {
     padding: 0;
 }
 
+.bar img {
+    width: 60px;
+    height: auto;
+}
+
 ul {
     list-style-type: none;
     display: flex;
