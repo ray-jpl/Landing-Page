@@ -68,7 +68,7 @@ ul {
 button {
     padding: 4px 16px;
     border-radius: 8px;
-  }
+}
 
 button.signup {
     background: royalblue;
@@ -131,4 +131,34 @@ button.signup {
     font-size: 18px;
     font-weight: 900;
     text-align: right;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    padding: 48px 256px;
+}
+
+.signup-prompt {
+    display: flex;
+    justify-content: space-between;
+    background:royalblue;
+    width: 800px;
+    border-radius: 8px;
+    padding: 32px 128px;
+}
+
+.signup-prompt .signup-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.signup-prompt .button {
+    display: flex;
+    align-items: center;
+}
+
+.signup-prompt button.signup {
+    border: 2px solid #E5E7EB;
 }
